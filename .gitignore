@@ -29,9 +29,6 @@ venv/
 env/
 ENV/
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
-*.ipynb
 
 # Data files (optional - uncomment if you don't want to push data)
 # *.csv
