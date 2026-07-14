@@ -1,0 +1,25 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+
+# Statistical modeling
+pymc
+arviz
+scipy
+statsmodels
+
+# Machine learning
+scikit-learn
+
+# Web framework (Flask)
+flask
+flask-cors
+
+# Jupyter
+jupyter
+ipykernel
+
+# Utilities
+python-dotenv

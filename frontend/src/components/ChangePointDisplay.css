@@ -1,0 +1,103 @@
+.change-point-display {
+  width: 100%;
+}
+
+.change-point-display h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.change-points-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.change-point-item {
+  padding: 12px 15px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  border-left: 4px solid #2c3e50;
+}
+
+.cp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cp-date {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.cp-index {
+  font-size: 12px;
+  color: #888;
+}
+
+.cp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cp-metric {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.metric-label {
+  color: #888;
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.metric-value {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.metric-ci {
+  font-size: 11px;
+  color: #999;
+}
+
+.cp-change {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.change-label {
+  color: #888;
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.change-value {
+  font-weight: 700;
+}
+
+.change-value.positive {
+  color: #2ed573;
+}
+
+.change-value.negative {
+  color: #ff6b6b;
+}
+
+.no-data {
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+}
